@@ -1,0 +1,20 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+var str="enter char to find in 'welcome to javascript string";
+  var ch = window.prompt("enter char to find in 'welcome to javascript string'");
+  if((str.search(ch))==-1)
+  	document.getElementById("demo").innerHTML = "not found";
+    else
+		  	document.getElementById("demo").innerHTML = "found";
+
+}
+myFunction();
+</script>
+
+</body>
+</html>
